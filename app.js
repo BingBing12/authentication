@@ -91,7 +91,7 @@ app.get("/secrets", function(req, res){
                 res.render("secrets", {secrets: secrets});
             }else{
                 
-                res.render("secrets", {secrets: "no secrets yet"});
+                console.log(err);
             }
         })
         
